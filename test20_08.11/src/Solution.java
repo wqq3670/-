@@ -1,6 +1,7 @@
 /**
  * Created with IntelliJ IDEA.
- * Description:
+ * Description:链表中倒数第K个节点
+ * 常规思路   倒数第k个就是正数第（链表长度-K）个
  * User: dell
  * Date: 2020-08-11
  * Time: 23:41

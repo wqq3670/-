@@ -45,7 +45,7 @@ public class Thread2 extends Thread{
 
 }
 
-class WebDownloader{
+class  WebDownloader{
     //下载方法
     public void downloader(String url,String name) {
         try {
@@ -56,3 +56,4 @@ class WebDownloader{
         }
     }
 }
+

@@ -24,7 +24,7 @@ class MyYield implements Runnable{
     public void run() {
         System.out.println(Thread.currentThread().getName()+"线程开始执行！");
         Thread.yield();//礼让
-        System.out.println(Thread.currentThread().getName()+"线程停止执行！");
+        System.out.println(Thread.currentThread().getName()+"线程停止！");
 
     }
 }

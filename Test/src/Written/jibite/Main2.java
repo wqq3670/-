@@ -21,9 +21,8 @@ public class Main2 {
         //回文是一种情况
         if(isHuiWen(pat) && isHuiWen(cont)) {
             return 1;
-        }else {
-
         }
+        return 0;
     }
 
     private static boolean isHuiWen(String str) {

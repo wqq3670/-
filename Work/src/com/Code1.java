@@ -213,7 +213,8 @@ public class Code1 {
                         // 更新next的属性值step和估价函数g
                         next.step++;
                         next.g++;
-                        // 将当前状态加入到结点的path中，因为程序中定义结点时，clone了上一个结点，所以在当前结点添加的状态也会clone到下一个结点中。
+                        // 将当前状态加入到结点的path中，因为程序中定义结点时，clone了上一个结点，
+                        // 所以在当前结点添加的状态也会clone到下一个结点中。
                         next.path.add(next.mt);
                         // 计算估价函数h，获取每个位置的数字，到达目标状态中对应数字的位置，所需要的步数
                         int count = 0;
